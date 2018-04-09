@@ -1,5 +1,5 @@
 //
-//  PageThreeViewController.swift
+//  PageFourViewController.swift
 //  smokeAndMirrors
 //
 //  Created by Eve Denison on 4/9/18.
@@ -8,18 +8,19 @@
 
 import UIKit
 
-class PageThreeViewController: UIViewController {
+class PageFourViewController: UIViewController {
 
-    @IBOutlet weak var pageThreeImage: UIImageView!
+    @IBOutlet weak var pageFiveImage: UIImageView!
     
-    @IBAction func pageThreeButton(_ sender: Any) {
-        performSegue(withIdentifier: "PageFourSegue", sender: self)
+    @IBAction func pageFourButton(_ sender: Any) {
+        
+        performSegue(withIdentifier: "PageFiveSegue", sender: self)
+    
     }
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-
 
 }
