@@ -12,9 +12,12 @@ class PageFourViewController: UIViewController {
 
     @IBOutlet weak var pageFiveImage: UIImageView!
     
+    @IBOutlet weak var button: UIButton!
     @IBAction func pageFourButton(_ sender: Any) {
         
         performSegue(withIdentifier: "PageFiveSegue", sender: self)
+        button.backgroundColor = .white
+        button.alpha = 0.5
     
     }
     override func viewDidLoad() {

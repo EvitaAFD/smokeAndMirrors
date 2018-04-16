@@ -10,10 +10,13 @@ import UIKit
 
 class PageTwoViewController: UIViewController {
 
+    @IBOutlet weak var button: UIButton!
     @IBOutlet weak var pageTwoImage: UIImageView!
     
     @IBAction func pageThreeButton(_ sender: Any) {
         performSegue(withIdentifier: "PageThreeSegue", sender: self)
+        button.backgroundColor = .white
+        button.alpha = 0.5
     }
     override func viewDidLoad() {
         super.viewDidLoad()

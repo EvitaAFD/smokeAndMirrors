@@ -16,7 +16,6 @@
 		501F770F207B623F00C51A8E /* PageThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501F770E207B623F00C51A8E /* PageThreeViewController.swift */; };
 		50A44A6E207B683C0089EFB4 /* PageFourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A44A6D207B683C0089EFB4 /* PageFourViewController.swift */; };
 		50A44A70207B6A500089EFB4 /* PageFiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A44A6F207B6A500089EFB4 /* PageFiveViewController.swift */; };
-		50A44A72207B6B140089EFB4 /* PageSixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A44A71207B6B140089EFB4 /* PageSixViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +30,6 @@
 		501F770E207B623F00C51A8E /* PageThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageThreeViewController.swift; sourceTree = "<group>"; };
 		50A44A6D207B683C0089EFB4 /* PageFourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageFourViewController.swift; sourceTree = "<group>"; };
 		50A44A6F207B6A500089EFB4 /* PageFiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageFiveViewController.swift; sourceTree = "<group>"; };
-		50A44A71207B6B140089EFB4 /* PageSixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageSixViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +65,6 @@
 				501F76FA207B500B00C51A8E /* AppDelegate.swift */,
 				501F76FC207B500B00C51A8E /* ViewController.swift */,
 				501F76FE207B500B00C51A8E /* Main.storyboard */,
-				50A44A71207B6B140089EFB4 /* PageSixViewController.swift */,
 				50A44A6F207B6A500089EFB4 /* PageFiveViewController.swift */,
 				501F770E207B623F00C51A8E /* PageThreeViewController.swift */,
 				50A44A6D207B683C0089EFB4 /* PageFourViewController.swift */,
@@ -156,7 +153,6 @@
 				50A44A70207B6A500089EFB4 /* PageFiveViewController.swift in Sources */,
 				501F770D207B5CE700C51A8E /* PageTwoViewController.swift in Sources */,
 				50A44A6E207B683C0089EFB4 /* PageFourViewController.swift in Sources */,
-				50A44A72207B6B140089EFB4 /* PageSixViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
