@@ -10,12 +10,20 @@ import UIKit
 
 class MapViewController: UIViewController {
     
+    @IBOutlet weak var plainMapImage: UIImageView!
+    
+    
     @IBOutlet weak var button: UIButton!
     //Hide status bar
     override var prefersStatusBarHidden: Bool {
         return true
     }
 
+    @IBAction func MapOvalButton(_ sender: Any) {
+        
+        plainMapImage.isHidden = true
+        
+    }
     //Transition to Instagram when button is pressed
     @IBAction func pageSixButton(_ sender: Any) {
         
