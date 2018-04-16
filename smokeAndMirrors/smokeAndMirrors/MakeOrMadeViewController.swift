@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PageTwoViewController: UIViewController {
+class MakeOrMadeViewController: UIViewController {
 
     @IBOutlet weak var button: UIButton!
     @IBOutlet weak var pageTwoImage: UIImageView!
@@ -20,8 +20,6 @@ class PageTwoViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
 
 

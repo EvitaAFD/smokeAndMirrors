@@ -12,10 +12,10 @@
 		501F7700207B500B00C51A8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 501F76FE207B500B00C51A8E /* Main.storyboard */; };
 		501F7702207B500C00C51A8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 501F7701207B500C00C51A8E /* Assets.xcassets */; };
 		501F7705207B500C00C51A8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 501F7703207B500C00C51A8E /* LaunchScreen.storyboard */; };
-		501F770D207B5CE700C51A8E /* PageTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501F770C207B5CE700C51A8E /* PageTwoViewController.swift */; };
-		501F770F207B623F00C51A8E /* PageThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501F770E207B623F00C51A8E /* PageThreeViewController.swift */; };
-		50A44A6E207B683C0089EFB4 /* PageFourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A44A6D207B683C0089EFB4 /* PageFourViewController.swift */; };
-		50A44A70207B6A500089EFB4 /* PageFiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A44A6F207B6A500089EFB4 /* PageFiveViewController.swift */; };
+		501F770D207B5CE700C51A8E /* MakeOrMadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501F770C207B5CE700C51A8E /* MakeOrMadeViewController.swift */; };
+		501F770F207B623F00C51A8E /* MaterialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501F770E207B623F00C51A8E /* MaterialViewController.swift */; };
+		50A44A6E207B683C0089EFB4 /* ProcessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A44A6D207B683C0089EFB4 /* ProcessViewController.swift */; };
+		50A44A70207B6A500089EFB4 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A44A6F207B6A500089EFB4 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +26,10 @@
 		501F7701207B500C00C51A8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		501F7704207B500C00C51A8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		501F7706207B500C00C51A8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		501F770C207B5CE700C51A8E /* PageTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTwoViewController.swift; sourceTree = "<group>"; };
-		501F770E207B623F00C51A8E /* PageThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageThreeViewController.swift; sourceTree = "<group>"; };
-		50A44A6D207B683C0089EFB4 /* PageFourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageFourViewController.swift; sourceTree = "<group>"; };
-		50A44A6F207B6A500089EFB4 /* PageFiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageFiveViewController.swift; sourceTree = "<group>"; };
+		501F770C207B5CE700C51A8E /* MakeOrMadeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeOrMadeViewController.swift; sourceTree = "<group>"; };
+		501F770E207B623F00C51A8E /* MaterialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialViewController.swift; sourceTree = "<group>"; };
+		50A44A6D207B683C0089EFB4 /* ProcessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessViewController.swift; sourceTree = "<group>"; };
+		50A44A6F207B6A500089EFB4 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,10 +65,10 @@
 				501F76FA207B500B00C51A8E /* AppDelegate.swift */,
 				501F76FC207B500B00C51A8E /* ViewController.swift */,
 				501F76FE207B500B00C51A8E /* Main.storyboard */,
-				50A44A6F207B6A500089EFB4 /* PageFiveViewController.swift */,
-				501F770E207B623F00C51A8E /* PageThreeViewController.swift */,
-				50A44A6D207B683C0089EFB4 /* PageFourViewController.swift */,
-				501F770C207B5CE700C51A8E /* PageTwoViewController.swift */,
+				50A44A6F207B6A500089EFB4 /* MapViewController.swift */,
+				501F770E207B623F00C51A8E /* MaterialViewController.swift */,
+				50A44A6D207B683C0089EFB4 /* ProcessViewController.swift */,
+				501F770C207B5CE700C51A8E /* MakeOrMadeViewController.swift */,
 				501F7701207B500C00C51A8E /* Assets.xcassets */,
 				501F7703207B500C00C51A8E /* LaunchScreen.storyboard */,
 				501F7706207B500C00C51A8E /* Info.plist */,
@@ -147,12 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				501F770F207B623F00C51A8E /* PageThreeViewController.swift in Sources */,
+				501F770F207B623F00C51A8E /* MaterialViewController.swift in Sources */,
 				501F76FD207B500B00C51A8E /* ViewController.swift in Sources */,
 				501F76FB207B500B00C51A8E /* AppDelegate.swift in Sources */,
-				50A44A70207B6A500089EFB4 /* PageFiveViewController.swift in Sources */,
-				501F770D207B5CE700C51A8E /* PageTwoViewController.swift in Sources */,
-				50A44A6E207B683C0089EFB4 /* PageFourViewController.swift in Sources */,
+				50A44A70207B6A500089EFB4 /* MapViewController.swift in Sources */,
+				501F770D207B5CE700C51A8E /* MakeOrMadeViewController.swift in Sources */,
+				50A44A6E207B683C0089EFB4 /* ProcessViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -52,10 +52,10 @@
             </objects>
             <point key="canvasLocation" x="140" y="131.78410794602701"/>
         </scene>
-        <!--Page Two View Controller-->
+        <!--Make Or Made View Controller-->
         <scene sceneID="Gd3-YW-nBM">
             <objects>
-                <viewController id="L4Q-yP-RJc" customClass="PageTwoViewController" customModule="smokeAndMirrors" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="L4Q-yP-RJc" customClass="MakeOrMadeViewController" customModule="smokeAndMirrors" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Zlw-Pu-f8y">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -90,10 +90,10 @@
             </objects>
             <point key="canvasLocation" x="1037.5999999999999" y="139.880059970015"/>
         </scene>
-        <!--Page Three View Controller-->
+        <!--Material View Controller-->
         <scene sceneID="ERl-tL-xRN">
             <objects>
-                <viewController id="fIO-RZ-t4a" customClass="PageThreeViewController" customModule="smokeAndMirrors" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="fIO-RZ-t4a" customClass="MaterialViewController" customModule="smokeAndMirrors" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DmS-Mb-NzG">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -132,10 +132,10 @@
             </objects>
             <point key="canvasLocation" x="1912.8" y="139.880059970015"/>
         </scene>
-        <!--Page Four View Controller-->
+        <!--Process View Controller-->
         <scene sceneID="6Gu-ss-7c8">
             <objects>
-                <viewController id="DFm-nc-IbQ" customClass="PageFourViewController" customModule="smokeAndMirrors" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="DFm-nc-IbQ" customClass="ProcessViewController" customModule="smokeAndMirrors" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rUf-M5-3Qb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -170,10 +170,10 @@
             </objects>
             <point key="canvasLocation" x="2844" y="139.880059970015"/>
         </scene>
-        <!--Page Five View Controller-->
+        <!--Map View Controller-->
         <scene sceneID="Tt8-kD-Yw1">
             <objects>
-                <viewController id="IJ3-80-8ay" customClass="PageFiveViewController" customModule="smokeAndMirrors" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="IJ3-80-8ay" customClass="MapViewController" customModule="smokeAndMirrors" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6RV-bS-iWc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

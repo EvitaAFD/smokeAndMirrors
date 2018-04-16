@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PageFourViewController: UIViewController {
+class ProcessViewController: UIViewController {
 
     @IBOutlet weak var pageFiveImage: UIImageView!
     

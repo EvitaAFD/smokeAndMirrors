@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PageFiveViewController: UIViewController {
+class MapViewController: UIViewController {
     
     @IBOutlet weak var button: UIButton!
     //Hide status bar

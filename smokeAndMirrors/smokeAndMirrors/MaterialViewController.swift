@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PageThreeViewController: UIViewController {
+class MaterialViewController: UIViewController {
 
     @IBOutlet weak var button: UIButton!
     @IBOutlet weak var pageThreeImage: UIImageView!
