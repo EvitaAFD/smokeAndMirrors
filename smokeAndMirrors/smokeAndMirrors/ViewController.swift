@@ -12,14 +12,13 @@ class ViewController: UIViewController {
 
     @IBOutlet var landingImage: UIView!
     
-
-    @IBAction func abacusButton(_ sender: Any) {
-        
-        performSegue(withIdentifier: "PageTwoSegue", sender: self)
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //Transition to MakeOrMade VC after displaying landing page
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1, execute: {
+            self.performSegue(withIdentifier: "PageTwoSegue", sender: self)
+        })
 
     }
     

@@ -21,22 +21,10 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Land" translatesAutoresizingMaskIntoConstraints="NO" id="UIl-tg-0kQ">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7WK-b9-bL7">
-                                <rect key="frame" x="16" y="258" width="343" height="138"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="138" id="AiQ-ht-2Zr"/>
-                                    <constraint firstAttribute="width" constant="343" id="PXb-8Y-xAv"/>
-                                </constraints>
-                                <connections>
-                                    <action selector="abacusButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nUL-gy-Kng"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="7WK-b9-bL7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="238" id="2L0-8o-jPd"/>
                             <constraint firstItem="UIl-tg-0kQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="5po-4n-nwD"/>
-                            <constraint firstItem="7WK-b9-bL7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="85q-XP-UHo"/>
                             <constraint firstItem="UIl-tg-0kQ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="8jF-sT-bmn"/>
                             <constraint firstItem="UIl-tg-0kQ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="RHh-9d-ISw"/>
                             <constraint firstItem="UIl-tg-0kQ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Z4K-Ur-A8b"/>
