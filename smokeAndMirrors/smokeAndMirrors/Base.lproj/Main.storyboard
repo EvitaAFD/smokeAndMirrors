@@ -33,7 +33,7 @@
                     </view>
                     <connections>
                         <outlet property="landingImage" destination="8bC-Xf-vdC" id="IF3-9D-07u"/>
-                        <segue destination="L4Q-yP-RJc" kind="presentation" identifier="PageTwoSegue" modalTransitionStyle="crossDissolve" id="0Hd-oB-krZ"/>
+                        <segue destination="L4Q-yP-RJc" kind="presentation" identifier="makeOrMade" modalTransitionStyle="crossDissolve" id="0Hd-oB-krZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -71,7 +71,7 @@
                     <connections>
                         <outlet property="button" destination="ZYh-En-fn4" id="02h-7V-IzH"/>
                         <outlet property="pageTwoImage" destination="FLd-f9-Udx" id="gZv-6x-VQa"/>
-                        <segue destination="fIO-RZ-t4a" kind="presentation" identifier="PageThreeSegue" modalTransitionStyle="crossDissolve" id="YIn-Tc-6T2"/>
+                        <segue destination="fIO-RZ-t4a" kind="presentation" identifier="material" modalTransitionStyle="crossDissolve" id="YIn-Tc-6T2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uu7-Gr-dD4" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -113,7 +113,7 @@
                     <connections>
                         <outlet property="button" destination="iCg-xY-WXP" id="oYl-Oj-Gd1"/>
                         <outlet property="pageThreeImage" destination="kIQ-v2-BXA" id="lu4-Ec-A2n"/>
-                        <segue destination="DFm-nc-IbQ" kind="presentation" identifier="PageFourSegue" modalTransitionStyle="crossDissolve" id="71J-zK-4EG"/>
+                        <segue destination="DFm-nc-IbQ" kind="presentation" identifier="process" modalTransitionStyle="crossDissolve" id="71J-zK-4EG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s7v-tn-ylf" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -151,7 +151,7 @@
                     <connections>
                         <outlet property="button" destination="QUP-Jo-7di" id="31J-MT-Tu4"/>
                         <outlet property="pageFiveImage" destination="27w-cR-2rv" id="HiQ-1M-kSE"/>
-                        <segue destination="IJ3-80-8ay" kind="presentation" identifier="PageFiveSegue" modalTransitionStyle="crossDissolve" id="LWk-x1-SSK"/>
+                        <segue destination="IJ3-80-8ay" kind="presentation" identifier="map" modalTransitionStyle="crossDissolve" id="LWk-x1-SSK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gk6-O9-QLo" userLabel="First Responder" sceneMemberID="firstResponder"/>

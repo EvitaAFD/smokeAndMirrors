@@ -14,7 +14,7 @@ class MakeOrMadeViewController: UIViewController {
     @IBOutlet weak var pageTwoImage: UIImageView!
     
     @IBAction func pageThreeButton(_ sender: Any) {
-        performSegue(withIdentifier: "PageThreeSegue", sender: self)
+        performSegue(withIdentifier: "material", sender: self)
         button.backgroundColor = .white
         button.alpha = 0.5
     }

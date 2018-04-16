@@ -15,7 +15,7 @@ class ProcessViewController: UIViewController {
     @IBOutlet weak var button: UIButton!
     @IBAction func pageFourButton(_ sender: Any) {
         
-        performSegue(withIdentifier: "PageFiveSegue", sender: self)
+        performSegue(withIdentifier: "map", sender: self)
         button.backgroundColor = .white
         button.alpha = 0.5
     

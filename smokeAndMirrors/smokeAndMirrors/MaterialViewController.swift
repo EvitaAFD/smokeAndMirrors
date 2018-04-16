@@ -14,7 +14,7 @@ class MaterialViewController: UIViewController {
     @IBOutlet weak var pageThreeImage: UIImageView!
     
     @IBAction func pageThreeButton(_ sender: Any) {
-        performSegue(withIdentifier: "PageFourSegue", sender: self)
+        performSegue(withIdentifier: "process", sender: self)
         button.backgroundColor = .white
         button.alpha = 0.5
     }
